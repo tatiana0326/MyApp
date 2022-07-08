@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".HomeActivity"
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="Lectura image"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/capuno" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/brood"
+                    android:text="Two meters from you"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Chapter One"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Stella Grant is a cystic fibrosis sufferer who effectively uses web-based media to adjust to her illness and tries to lead an ordinary life.
+
+He meets another CF sympathizer, Will Newman, who is at the medical clinic for preliminary medication trying to get rid of the bacterial disease in his lungs.
+
+CF patients are carefully placed two meters apart from each other to decrease the danger of cross-disease, as catching bacterial contaminations from other CF patients can be dangerous.
+
+Stella is determined to uphold the rules and initially dislikes Will, who likes to defy the rules and take on dangerous challenges whenever the situation allows. Stella realizes that Will isn't following his treatment routine carefully and eventually gets him to agree to it.
+Will begins to explore Stella and finds a video of her sister, Stella tells him that her sister died in a mishap on Stella's birthday. Later, Will and Stella begin to stare at each other and secretly go on their first date. They end up in the pool at the ER clinic."
+                android:textSize="15sp"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Return"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/materialCard"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:clickable="true"
+        android:text="Next"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/materialCard"
+        app:layout_constraintVertical_bias="0.936" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

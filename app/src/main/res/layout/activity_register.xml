@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/register_fullName_input_hint"
-            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            app:startIconDrawable="@drawable/ic_baseline_account_circle_24"
             app:startIconTint="@color/primary"
             app:startIconContentDescription="@string/register_fullName_input_content_description_end_icon"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"

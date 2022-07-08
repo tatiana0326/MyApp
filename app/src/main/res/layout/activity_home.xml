@@ -34,9 +34,10 @@
                 android:padding="10dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/brood"
+                    android:textAlignment="center"
                     android:text="Two meters from you"
                     android:textColor="@color/primary"
                     android:textSize="25sp"
@@ -54,6 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:justificationMode="inter_word"
                     android:text="Stella is seventeen years old and unlike the rest of his other friends he lives a life with a quite different routine. The young woman suffers from cystic fibrosis and spends much of her time in the hospital where she has to test her self-control every day, something that will be altered when she meets another patient. Will, a young man who suffers from the same disease as her. They will not be able to avoid connecting and creating a bond as special as it is dangerous, since they must be separated at a distance of around six meters to prevent both from infecting each other."
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="@color/black" />
