@@ -10,11 +10,12 @@
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.1" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.1" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1" />
-        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_book.xml" value="0.25" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_library.xml" value="0.1" />
-        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.12604166666666666" />
-        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_register.xml" value="0.18" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/bottom_navigation_menu.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/foreground.xml" value="0.203125" />
         <entry key="..\:/Users/tatia/AndroidStudioProjects/MyApp/app/src/main/res/layout/prueba.xml" value="0.20416666666666666" />
